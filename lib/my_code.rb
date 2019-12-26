@@ -51,6 +51,7 @@ def reduce_to_all_true(source_array)
       index += 1
     else
       return false
+    end
   end
   return true
 end
@@ -62,6 +63,7 @@ def reduce_to_any_true(source_array)
       return true
     else
       index += 1
+    end
   end
   return false
 end
